@@ -7,6 +7,13 @@ function frameIt(){
   $('img').on('load', addClass('tasty'));
 }
 
+function pressIt(){
+  $('document').on('keydow', function(key) {
+    if (key.which == ){
+      alert('G was pressed')
+    }
+  })
+}
 
 $(document).ready(function(){
 
